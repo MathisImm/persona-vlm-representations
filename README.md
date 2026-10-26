@@ -45,7 +45,7 @@ pip install -r requirements-inference.txt    # only for re-running the model (GP
 
 Download `persona-vlm-representations_data.zip` from Zenodo and unpack it in the repository as `./data` (`unzip persona-vlm-representations_data.zip && mv persona-vlm-representations_data data`), or point `PERSONA_DATA` to the unpacked folder. The figures use Arial, as on the paper's machine (`ttf-mscorefonts-installer` on Debian/Ubuntu). Without it, matplotlib falls back to DejaVu Sans and the layout shifts slightly.
 
-The images are not redistributed. They belong to the Flickr dataset of Abdullahu and Grabner (2024, *Commonly interesting images*). The 100 identifiers are in `configs/image_ids_100_with_hidden_states.txt`. Point `PERSONA_IMAGES` to a folder holding them as `<image_id>.jpg`. This is needed only for inference and for the example photo in Fig. 1.
+The images are not redistributed. They come from the Flickr subset used by Abdullahu and Grabner (2024, *Commonly interesting images*). The 100 identifiers are in `configs/image_ids_100_with_hidden_states.txt`. Point `PERSONA_IMAGES` to a folder holding them as `<image_id>.jpg`. This is needed only for inference and for the example photo in Fig. 1.
 
 ## Reproducing the paper
 
