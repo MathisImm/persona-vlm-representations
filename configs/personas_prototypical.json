@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "name": "Baseline",
+    "description": ""
+  },
+  "persona_1": {
+    "name": "Persona 1",
+    "description": "Origin: Nigeria, Age: 50-54, Gender: Male, Professional Background: Engineering & Tech, Mental Workload: Moderate, Emotion: Focused."
+  },
+  "persona_2": {
+    "name": "Persona 2",
+    "description": "Origin: Japan, Age: 18-24, Gender: Female, Professional Background: Student, Mental Workload: High, Emotion: Curious."
+  },
+  "persona_3": {
+    "name": "Persona 3",
+    "description": "Origin: Brazil, Age: 35-39, Gender: Male, Professional Background: Sales & Retail, Mental Workload: Extreme, Emotion: Cheerful."
+  },
+  "persona_4": {
+    "name": "Persona 4",
+    "description": "Origin: Germany, Age: 25-29, Gender: Female, Professional Background: Healthcare, Mental Workload: Extreme, Emotion: Anxious."
+  },
+  "persona_5": {
+    "name": "Persona 5",
+    "description": "Origin: Canada, Age: 60-64, Gender: Diverse, Professional Background: Education, Mental Workload: Low, Emotion: Calm."
+  }
+}

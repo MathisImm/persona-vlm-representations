@@ -1,0 +1,10 @@
+# Model inference (ratings and hidden states); needs a GPU with >= 24 GB for fp16.
+-r requirements.txt
+torch==2.9.1
+torchvision==0.24.1
+transformers==4.57.3
+accelerate==1.12.0
+qwen-vl-utils==0.0.14
+huggingface-hub==0.36.0
+tokenizers==0.22.1
+safetensors==0.7.0

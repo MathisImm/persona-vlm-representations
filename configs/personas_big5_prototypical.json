@@ -1,0 +1,26 @@
+{
+  "baseline": {
+    "name": "Baseline",
+    "description": ""
+  },
+  "persona_1": {
+    "name": "Persona 1 (The Reserved)",
+    "description": "Big 5 Percentiles: Openness: 15, Conscientiousness: 85, Extraversion: 20, Agreeableness: 80, Neuroticism: 15, Age: 60, Gender: Male, IQ: 100."
+  },
+  "persona_2": {
+    "name": "Persona 2 (The Role Model)",
+    "description": "Big 5 Percentiles: Openness: 85, Conscientiousness: 90, Extraversion: 80, Agreeableness: 85, Neuroticism: 10, Age: 45, Gender: Female, IQ: 100."
+  },
+  "persona_3": {
+    "name": "Persona 3 (The Undercontrolled)",
+    "description": "Big 5 Percentiles: Openness: 20, Conscientiousness: 15, Extraversion: 85, Agreeableness: 20, Neuroticism: 85, Age: 20, Gender: Male, IQ: 100."
+  },
+  "persona_4": {
+    "name": "Persona 4 (The Highly Sensitive)",
+    "description": "Big 5 Percentiles: Openness: 80, Conscientiousness: 50, Extraversion: 50, Agreeableness: 75, Neuroticism: 85, Age: 30, Gender: Diverse, IQ: 100."
+  },
+  "persona_5": {
+    "name": "Persona 5 (The Normative)",
+    "description": "Big 5 Percentiles: Openness: 40, Conscientiousness: 50, Extraversion: 50, Agreeableness: 50, Neuroticism: 65, Age: 35, Gender: Female, IQ: 100."
+  }
+}

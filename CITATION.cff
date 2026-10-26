@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper."
+title: "Prompt Style Shapes the Representations, Persona the Judgements: Persona Conditioning in a Multimodal Transformer (code)"
+authors:
+  - family-names: Immertreu
+    given-names: Mathis
+  - family-names: Abdullahu
+    given-names: Fitim
+  - family-names: Kinfe
+    given-names: Thomas
+  - family-names: Grabner
+    given-names: Helmut
+  - family-names: Krauss
+    given-names: Patrick
+  - family-names: Schilling
+    given-names: Achim
+license: MIT
+repository-code: "https://github.com/MathisImm/persona-vlm-representations"
+preferred-citation:
+  type: article
+  title: "Prompt Style Shapes the Representations, Persona the Judgements: Persona Conditioning in a Multimodal Transformer"
+  authors:
+    - family-names: Immertreu
+      given-names: Mathis
+    - family-names: Abdullahu
+      given-names: Fitim
+    - family-names: Kinfe
+      given-names: Thomas
+    - family-names: Grabner
+      given-names: Helmut
+    - family-names: Krauss
+      given-names: Patrick
+    - family-names: Schilling
+      given-names: Achim
