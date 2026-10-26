@@ -1,6 +1,6 @@
 cff-version: 1.2.0
 message: "If you use this code, please cite the paper."
-title: "Prompt Style Shapes the Representations, Persona the Judgements: Persona Conditioning in a Multimodal Transformer (code)"
+title: "Code for: The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in Multimodal Language Models"
 authors:
   - family-names: Immertreu
     given-names: Mathis
@@ -18,7 +18,7 @@ license: MIT
 repository-code: "https://github.com/MathisImm/persona-vlm-representations"
 preferred-citation:
   type: article
-  title: "Prompt Style Shapes the Representations, Persona the Judgements: Persona Conditioning in a Multimodal Transformer"
+  title: "The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in Multimodal Language Models"
   authors:
     - family-names: Immertreu
       given-names: Mathis

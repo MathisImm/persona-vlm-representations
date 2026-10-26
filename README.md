@@ -1,11 +1,11 @@
 # Persona and prompt style in a multimodal transformer
 
-Code for *Prompt Style Shapes the Representations, Persona the Judgements: Persona Conditioning in a Multimodal Transformer*
+Code for *The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in Multimodal Language Models*
 (Immertreu, Abdullahu, Kinfe, Grabner, Krauss and Schilling).
 
 Qwen3-VL-8B-Instruct rates the interestingness of 100 Flickr images under 53 prompts: a task-only baseline (Base), two minimal identity statements (D1 "You are an AI.", D2 "You are a human being.") and five socio-demographic and five Big Five personas, each in five prompting styles (S1–S5). We record the rating and the final-token hidden state of every decoder layer. We then analyse the hidden states with the generalised discrimination value (GDV) and MDS, and the ratings with a variance decomposition, mixed-effects models and correlations between conditions.
 
-The data (ratings, hidden states, GDV tables, projections) are archived on Zenodo: **10.5281/zenodo.23664821**.
+The data (ratings, hidden states, GDV tables, projections) are archived on Zenodo: [10.5281/zenodo.23664820](https://doi.org/10.5281/zenodo.23664820).
 
 ## Layout
 
@@ -43,7 +43,7 @@ pip install -r requirements.txt              # analysis, GDV, projections, figur
 pip install -r requirements-inference.txt    # only for re-running the model (GPU, >= 24 GB in fp16)
 ```
 
-Download the Zenodo archive and unpack it to `./data`, or point `PERSONA_DATA` to it. The figures use Arial, as on the paper's machine (`ttf-mscorefonts-installer` on Debian/Ubuntu). Without it, matplotlib falls back to DejaVu Sans and the layout shifts slightly.
+Download `persona-vlm-representations_data.zip` from Zenodo and unpack it in the repository as `./data` (`unzip persona-vlm-representations_data.zip && mv persona-vlm-representations_data data`), or point `PERSONA_DATA` to the unpacked folder. The figures use Arial, as on the paper's machine (`ttf-mscorefonts-installer` on Debian/Ubuntu). Without it, matplotlib falls back to DejaVu Sans and the layout shifts slightly.
 
 The images are not redistributed. They belong to the Flickr dataset of Abdullahu and Grabner (2024, *Commonly interesting images*). The 100 identifiers are in `configs/image_ids_100_with_hidden_states.txt`. Point `PERSONA_IMAGES` to a folder holding them as `<image_id>.jpg`. This is needed only for inference and for the example photo in Fig. 1.
 
