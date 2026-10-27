@@ -8,6 +8,8 @@ authors:
     given-names: Fitim
   - family-names: Kinfe
     given-names: Thomas
+  - family-names: Metzner
+    given-names: Claus
   - family-names: Grabner
     given-names: Helmut
   - family-names: Krauss
@@ -26,6 +28,8 @@ preferred-citation:
       given-names: Fitim
     - family-names: Kinfe
       given-names: Thomas
+    - family-names: Metzner
+      given-names: Claus
     - family-names: Grabner
       given-names: Helmut
     - family-names: Krauss

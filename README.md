@@ -1,7 +1,7 @@
 # Persona and prompt style in a multimodal transformer
 
 Code for *The Geometry of Simulated Perspectives: Dissociating Representation and Behaviour in Multimodal Language Models*
-(Immertreu, Abdullahu, Kinfe, Grabner, Krauss and Schilling).
+(Immertreu, Abdullahu, Kinfe, Metzner, Grabner, Krauss and Schilling).
 
 Qwen3-VL-8B-Instruct rates the interestingness of 100 Flickr images under 53 prompts: a task-only baseline (Base), two minimal identity statements (D1 "You are an AI.", D2 "You are a human being.") and five socio-demographic and five Big Five personas, each in five prompting styles (S1–S5). We record the rating and the final-token hidden state of every decoder layer. We then analyse the hidden states with the generalised discrimination value (GDV) and MDS, and the ratings with a variance decomposition, mixed-effects models and correlations between conditions.
 
